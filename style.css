@@ -20,6 +20,7 @@ h2 {
 .question {
   display: flex;
   margin-top: 2em;
+  font-family: Lato;
 }
   
 .answer-choice img {
