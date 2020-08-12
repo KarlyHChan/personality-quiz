@@ -2,8 +2,10 @@
 //This is where you will define the variables you will be using in your project.
 //#TODO: Create four variables to track each possible quiz outcome
 var questionCount = 0;
-var result1Score = 0;
-
+var fairy = 0;
+var mermaid = 0;
+var witch = 0;
+var result4Score = 0;
 
 
 
