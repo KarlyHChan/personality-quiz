@@ -6,12 +6,15 @@ body {
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-style: none;
+  color: #ABE8FC;
+  font-family: 'Oleo Script';
 }
 
 h2 {
   margin-top: 2em; 
+  font-family: Lato;
+  color: #CBB7FC;
 }
 
 .question {
