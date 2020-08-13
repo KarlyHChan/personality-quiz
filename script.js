@@ -94,10 +94,32 @@ function updateResult(){
   if (hermioneScore > maximum){
     maximum = hermioneScore
   } 
+  
   if (elleScore > maximum) {
-    maximum = 
-  }
-    
+    maximum = elleScore
   }
   
+  if (katnissScore > maximum) {
+    maximum = katnissScore
+  }
+  
+  if (leiaScore > maximum) {
+    maximum = leiaScore
+  }
+    
+  if (hermioneScore == maximum) {
+    result.innerHTML = "You are Hermione Granger!";
+  }
+  
+  else if (elleScore == maximum) {
+    result.innerHTML = "You are Elle Woods!";
+  }
+  
+  else if (katnissScore == maximum) {
+     result.innerHTML = "You are Hermione!";
+  }
+  
+  else (leiaScore == maximum) {
+    
+  }
 }
