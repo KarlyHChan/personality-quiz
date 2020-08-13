@@ -36,8 +36,8 @@ var q4a4 = document.getElementById("q4a4");
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", hermione);
 q1a2.addEventListener("click", elle);
-q1a3.addEventListener("click", katniss);
-q1a4.addEventListener("click", leia);
+q1a3.addEventListener("click", leia);
+q1a4.addEventListener("click", katniss);
 
 
 
@@ -46,8 +46,23 @@ q1a4.addEventListener("click", leia);
 
 
 //#TODO: Define quiz functions here
-function result1(){
-  
-  
-  
+function hermione(){
+  hermioneScore += 1;
+  questionCount += 1;
 }
+
+function elle(){
+  elleScore += 1;
+  questionCount += 1;
+}
+
+function leia(){
+  leiaScore += 1;
+  questionCount += 1;
+}
+
+function elle(){
+  elleScore += 1;
+  questionCount += 1;
+}
+  
