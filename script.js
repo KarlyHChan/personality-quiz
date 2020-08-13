@@ -32,16 +32,21 @@ var q4a4 = document.getElementById("q4a4");
 
 
 
-
 //#TODO: Add Event Listeners to your answer choice variables.
 q1a1.addEventListener("click", hermione);
 q1a2.addEventListener("click", elle);
 q1a3.addEventListener("click", leia);
 q1a4.addEventListener("click", katniss);
 
+q2a1.addEventListener("click", elle);
+q2a2.addEventListener("click", katniss);
+q2a3.addEventListener("click", leia);
+q2a4.addEventListener("click", hermione);
 
-
-
+q3a1.addEventListener("click", hermione);
+q3a2.addEventListener("click", elle);
+q3a3.addEventListener("click", leia);
+q3a4.addEventListener("click", katniss);
 
 
 
