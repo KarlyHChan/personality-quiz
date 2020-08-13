@@ -6,7 +6,7 @@ var hermioneScore = 0;
 var elleScore = 0;
 var katnissScore = 0;
 var leiaScore = 0;
-
+var result = document.getElementById("result");
 
 
 //#TODO: Use the DOM to create variables for the first quiz question.
@@ -86,7 +86,10 @@ function katniss(){
   questionCount += 1;
   alert("One point to Katniss Everdeen!")
   if (questionCount >= 3){
-    updateResult()
+    updateResult();
   }
 }
+
+function updateResult(){
   
+}
