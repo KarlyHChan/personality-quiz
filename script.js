@@ -58,7 +58,7 @@ function hermione(){
   hermioneScore += 1;
   questionCount += 1;
   alert("One point to Hermione!");
-  if (questionCount >= 3){
+  if (questionCount >= 4){
     updateResult();
   }
 }
@@ -67,7 +67,7 @@ function elle(){
   elleScore += 1;
   questionCount += 1;
   alert("One point to Elle Woods!");
-  if (questionCount >= 3){
+  if (questionCount >= 4){
     updateResult();
   }
 }
@@ -76,7 +76,7 @@ function leia(){
   leiaScore += 1;
   questionCount += 1;
   alert("One point to Princess Leia!");
-  if (questionCount >= 3){
+  if (questionCount >= 4){
     updateResult();
   }
 }
@@ -85,7 +85,7 @@ function katniss(){
   katnissScore += 1;
   questionCount += 1;
   alert("One point to Katniss Everdeen!")
-  if (questionCount >= 3){
+  if (questionCount >= 4){
     updateResult();
   }
 }
@@ -116,10 +116,14 @@ function updateResult(){
   }
   
   else if (katnissScore == maximum) {
-     result.innerHTML = "You are Hermione!";
+    result.innerHTML = "You are Katniss Everdeen!";
   }
   
-  else (leiaScore == maximum) {
-    
+  else if (leiaScore == maximum) {
+    result.innerHTML = "You are Princess Leia!";
+  }
+  
+  else{
+    result.innerHTML = "You are a mixture of iconic characters!"
   }
 }
