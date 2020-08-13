@@ -8,6 +8,8 @@ var katnissScore = 0;
 var leiaScore = 0;
 var result = document.getElementById("result");
 var maximum = 0;
+var maxCount = 0;
+//maxCount is to see if more than one person have had the maximum score and so the quiz is inconclusive
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
@@ -57,7 +59,7 @@ q4a4.addEventListener("click", leia);
 function hermione(){
   hermioneScore += 1;
   questionCount += 1;
-  alert("One point to Hermione!");
+  //alert("One point to Hermione!");
   if (questionCount >= 4){
     updateResult();
   }
@@ -66,7 +68,7 @@ function hermione(){
 function elle(){
   elleScore += 1;
   questionCount += 1;
-  alert("One point to Elle Woods!");
+  //alert("One point to Elle Woods!");
   if (questionCount >= 4){
     updateResult();
   }
@@ -75,7 +77,7 @@ function elle(){
 function leia(){
   leiaScore += 1;
   questionCount += 1;
-  alert("One point to Princess Leia!");
+  //alert("One point to Princess Leia!");
   if (questionCount >= 4){
     updateResult();
   }
@@ -84,7 +86,7 @@ function leia(){
 function katniss(){
   katnissScore += 1;
   questionCount += 1;
-  alert("One point to Katniss Everdeen!")
+  //alert("One point to Katniss Everdeen!")
   if (questionCount >= 4){
     updateResult();
   }
@@ -108,18 +110,25 @@ function updateResult(){
   }
     
   if (hermioneScore == maximum) {
+    maxCount += 1;
+    if (maxCount > 1) {
+      result.innerHTML = "Hmm... you are a mixture of two characters! Try Again."
+    }
     result.innerHTML = "You are Hermione Granger!";
   }
   
   else if (elleScore == maximum) {
+    maxCount += 1;
     result.innerHTML = "You are Elle Woods!";
   }
   
   else if (katnissScore == maximum) {
+    maxCount += 1;
     result.innerHTML = "You are Katniss Everdeen!";
   }
   
   else if (leiaScore == maximum) {
+    maxCount += 1;
     result.innerHTML = "You are Princess Leia!";
   }
   
