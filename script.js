@@ -112,27 +112,31 @@ function updateResult(){
   if (hermioneScore == maximum) {
     maxCount += 1;
     if (maxCount > 1) {
-      result.innerHTML = "Hmm... you are a mixture of two characters! Try Again."
+      result.innerHTML = "Hmm... you are a mixture of two characters! Try Again.";
     }
     result.innerHTML = "You are Hermione Granger!";
   }
   
-  else if (elleScore == maximum) {
+  if (elleScore == maximum) {
     maxCount += 1;
+    if (maxCount > 1) {
+      result.innerHTML = "Hmm... you are a mixture of " + maxCount + " characters! Try Again.";
+    }
     result.innerHTML = "You are Elle Woods!";
   }
   
-  else if (katnissScore == maximum) {
+  if (katnissScore == maximum) {
     maxCount += 1;
+    if (maxCount > 1) {result.innerHTML = "Hmm... you are a mixture of two characters! Try Again.";
+    }
     result.innerHTML = "You are Katniss Everdeen!";
   }
   
-  else if (leiaScore == maximum) {
+  if (leiaScore == maximum) {
     maxCount += 1;
+    if (maxCount > 1) {result.innerHTML = "Hmm... you are a mixture of two characters! Try Again.";
+    }
     result.innerHTML = "You are Princess Leia!";
   }
   
-  else{
-    result.innerHTML = "You are a mixture of iconic characters!"
-  }
 }
