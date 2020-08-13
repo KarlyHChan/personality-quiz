@@ -7,7 +7,7 @@ var elleScore = 0;
 var katnissScore = 0;
 var leiaScore = 0;
 var result = document.getElementById("result");
-
+var maximum = 0;
 
 //#TODO: Use the DOM to create variables for the first quiz question.
 var q1a1 = document.getElementById("q1a1");
@@ -91,5 +91,13 @@ function katniss(){
 }
 
 function updateResult(){
+  if (hermioneScore > maximum){
+    maximum = hermioneScore
+  } 
+  if (elleScore > maximum) {
+    maximum = 
+  }
+    
+  }
   
 }
