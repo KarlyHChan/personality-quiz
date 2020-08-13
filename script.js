@@ -61,8 +61,8 @@ function leia(){
   questionCount += 1;
 }
 
-function elle(){
-  elleScore += 1;
+function katniss(){
+  katnissScore += 1;
   questionCount += 1;
 }
   
