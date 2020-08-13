@@ -49,20 +49,24 @@ q1a4.addEventListener("click", katniss);
 function hermione(){
   hermioneScore += 1;
   questionCount += 1;
+  alert("One point to Hermione!");
 }
 
 function elle(){
   elleScore += 1;
   questionCount += 1;
+  alert("One point to Elle Woods!");
 }
 
 function leia(){
   leiaScore += 1;
   questionCount += 1;
+  alert("One point to Princess Leia!");
 }
 
 function katniss(){
   katnissScore += 1;
   questionCount += 1;
+  alert("One point to Katniss Everdeen!")
 }
   
