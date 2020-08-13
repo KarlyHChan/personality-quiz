@@ -43,12 +43,15 @@ q2a2.addEventListener("click", katniss);
 q2a3.addEventListener("click", leia);
 q2a4.addEventListener("click", hermione);
 
-q3a1.addEventListener("click", hermione);
-q3a2.addEventListener("click", elle);
-q3a3.addEventListener("click", leia);
-q3a4.addEventListener("click", katniss);
+q3a1.addEventListener("click", katniss);
+q3a2.addEventListener("click", leia);
+q3a3.addEventListener("click", elle);
+q3a4.addEventListener("click", hermione);
 
-
+q4a1.addEventListener("click", elle);
+q4a2.addEventListener("click", katniss);
+q4a3.addEventListener("click", hermione);
+q4a4.addEventListener("click", leia);
 
 //#TODO: Define quiz functions here
 function hermione(){
