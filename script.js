@@ -131,7 +131,8 @@ function updateResult(){
   
   if (katnissScore == maximum) {
     maxCount += 1;
-    if (maxCount > 1) {result.innerHTML = "Hmm... you are a mixture of " + maxCount + " characters! Try Again.";
+    if (maxCount > 1) {
+      result.innerHTML = "Hmm... you are a mixture of " + maxCount + " characters! Try Again.";
     }
     else {
       result.innerHTML = "You are Katniss Everdeen!";
@@ -140,7 +141,8 @@ function updateResult(){
   
   if (leiaScore == maximum) {
     maxCount += 1;
-    if (maxCount > 1) {result.innerHTML = "Hmm... you are a mixture of " + maxCount + " characters! Try Again.";
+    if (maxCount > 1) {
+      result.innerHTML = "Hmm... you are a mixture of " + maxCount + " characters! Try Again.";
     }
     else {
       result.innerHTML = "You are Princess Leia!";
