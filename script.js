@@ -58,23 +58,35 @@ function hermione(){
   hermioneScore += 1;
   questionCount += 1;
   alert("One point to Hermione!");
+  if (questionCount >= 3){
+    updateResult();
+  }
 }
 
 function elle(){
   elleScore += 1;
   questionCount += 1;
   alert("One point to Elle Woods!");
+  if (questionCount >= 3){
+    updateResult();
+  }
 }
 
 function leia(){
   leiaScore += 1;
   questionCount += 1;
   alert("One point to Princess Leia!");
+  if (questionCount >= 3){
+    updateResult();
+  }
 }
 
 function katniss(){
   katnissScore += 1;
   questionCount += 1;
   alert("One point to Katniss Everdeen!")
+  if (questionCount >= 3){
+    updateResult()
+  }
 }
   
